@@ -59,5 +59,42 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .jokes {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 100%;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 25px 10px;
+    }
+
+    .jokes {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}
+
+
 
 
